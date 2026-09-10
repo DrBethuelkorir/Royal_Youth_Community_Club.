@@ -7,6 +7,7 @@ import About from '../Components/Sections/About';
 import LoginPage from '../Pages/Login';
 import HomePage from '../Pages/LandingPage';
 import ContactPage from '../Pages/Contact';
+import RegisterPage from '../Pages/Register';
 const AppRoutes = () => {
   return (
     <Routes>
@@ -17,6 +18,7 @@ const AppRoutes = () => {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/members" element={<MembersPage />} />
         <Route path= "/login" element ={<LoginPage />} />
+        <Route path = "/register" element = {<RegisterPage />} />
       </Route>
 
       {/* Protected pages — also share Header + Footer */}
