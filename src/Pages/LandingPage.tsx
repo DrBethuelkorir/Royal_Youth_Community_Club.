@@ -522,6 +522,8 @@ const HomePage: React.FC = () => {
                 Talk to us
               </Link>
 
+              
+
             </div>
           </div>
         </div>

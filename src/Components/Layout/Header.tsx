@@ -15,6 +15,8 @@ const Header: React.FC = () => {
     { label: 'Home', path: '/' },
     { label: 'About', path: '/about' },
     { label: 'Contact', path: '/contact' },
+    {label : 'market', path: '/market' },
+    {label : 'support Us', path: '/support' }
   ];
 
   useEffect(() => {
@@ -108,6 +110,8 @@ const Header: React.FC = () => {
           {/* Desktop Actions */}
           <div className="hidden lg:flex items-center gap-4">
 
+            
+
             <Link
               to="/login"
               className="text-sm font-medium text-slate-300 hover:text-white transition-colors"
@@ -123,6 +127,8 @@ const Header: React.FC = () => {
 
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
+
+            
 
           </div>
 
